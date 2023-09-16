@@ -1,6 +1,6 @@
 ///<reference types="cypress"/>
 
-import { beforeEach } from "mocha"
+
 
 describe("Practice all the element",()=>{
 
