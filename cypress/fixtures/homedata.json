@@ -1,0 +1,8 @@
+{
+    "name":"hello",
+    "email":"hello@gmail.com",
+    "password":"12345",
+    "gender":"Male",
+    "Dob":"1993-09-13",
+    "message":"successfully"
+}

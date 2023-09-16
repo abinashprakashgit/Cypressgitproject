@@ -1,0 +1,21 @@
+{
+  "name": "practicepage",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test1": "node_modules\\.bin\\cypress run",
+    "ecomtest":"npx cypress run --record --key 91f319f0-b232-4d42-8973-e25e23a31482 --spec cypress/e2e/eCommerce/TestSuite/ecommerce.cy.js --headed --browser chrome",
+    "allelement":"npx cypress run --record --key 91f319f0-b232-4d42-8973-e25e23a31482 --spec cypress/e2e/PracticePage/allElement.cy.js --headed --browser chrome"
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^13.2.0"
+  },
+  "devDependencies": {
+    "cypress-iframe": "^1.0.1"
+  }
+}
