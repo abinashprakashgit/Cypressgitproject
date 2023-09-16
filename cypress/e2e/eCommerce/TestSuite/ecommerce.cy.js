@@ -87,5 +87,6 @@ describe("Ecommerce",()=>{
 
         cy.get("div.alert").should('contain.text','Thank you')
     })
+    //Abinash
 
  })
